@@ -1,0 +1,57 @@
+kwallet-pam (0.0~git20150805-0ubuntu1) wily; urgency=medium
+
+  [ Harald Sitter ]
+  * New git snapshot introducing KWallet5 support.
+  * New packages pam-kwallet4 and pam-kwallet5.
+  * Previous pam-kwallet package transitions to pam-kwallet4
+
+  [ Clive Johnston ]
+  * New snapshot
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 05 Aug 2015 14:45:37 +0000
+
+pam-kwallet (0.0~git20140429-0ubuntu2) vivid; urgency=medium
+
+  * No-change rebuild for the libgcrypt20 transition.
+
+ -- Adam Conrad <adconrad@ubuntu.com>  Fri, 27 Mar 2015 06:17:18 -0600
+
+pam-kwallet (0.0~git20140429-0ubuntu1) utopic; urgency=medium
+
+  * New git snapshot resolving some possible crashers and adding more logging
+    UBUNTU-ERROR: 30e961156f64c241b58a65ecbb009688e3aeb2ec
+    LP: #1314118
+    UBUNTU-ERROR: ae1ef304fcd7d26e215563c4c95fcb25a74a6559
+    LP: #1314119
+    UBUNTU-ERROR: 28ad0356a00142a5ec12fb842f15e18f3fae1a63
+    LP: #1314120
+  * Dropping upstream_Allocate-one-more-byte-for-slash.patch, applied in this
+    snapshot
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 29 Apr 2014 11:32:18 +0200
+
+pam-kwallet (0.0~git20140410-0ubuntu2) trusty; urgency=medium
+
+  * Add upstream_Allocate-one-more-byte-for-slash.patch from upstream to
+    prevent PAM crashes on login due to too tiny allocs.
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Tue, 15 Apr 2014 11:31:14 +0200
+
+pam-kwallet (0.0~git20140410-0ubuntu1) trusty; urgency=medium
+
+  * New git snapshot refining everything to production quality LP: #1305307
+  * Add dependency on socat
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Thu, 10 Apr 2014 10:38:36 +0200
+
+pam-kwallet (0.0~git20140407-0ubuntu1) trusty; urgency=medium
+
+  * New git snapshot actually installing something...
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Mon, 07 Apr 2014 16:59:49 +0200
+
+pam-kwallet (0.0~git20140218-0ubuntu1) trusty; urgency=low
+
+  * Initial release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 18 Feb 2014 13:12:41 +0100

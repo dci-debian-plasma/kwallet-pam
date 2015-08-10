@@ -1,9 +1,8 @@
 #!/usr/bin/make -f
 
-QT5_BUILD_DIR = build-qt5
+include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
-%:
-	dh $@ 
+QT5_BUILD_DIR = build-qt5
 
 override_dh_auto_clean:
 	dh_auto_clean

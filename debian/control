@@ -3,7 +3,11 @@ Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
-Build-Depends: cmake, debhelper (>= 9), libgcrypt11-dev, libpam0g-dev
+Build-Depends: cmake,
+               debhelper (>= 9),
+               libgcrypt11-dev,
+               libpam0g-dev,
+               pkg-kde-tools
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/kwallet-pam
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/kwallet-pam.git

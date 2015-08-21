@@ -24,6 +24,8 @@ Description: transitional dummy package
 Package: pam-kwallet4
 Architecture: any
 Depends: socat, ${misc:Depends}, ${shlibs:Depends}
+Conflicts: pam-kwallet (<< 4:5.3.95)
+Breaks: pam-kwallet (<< 4:5.3.95)
 Description: KWallet integration with PAM
  Integrated KWallet with PAM so you can log in to open a KWallet.
 

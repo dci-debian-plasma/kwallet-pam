@@ -1,7 +1,7 @@
 Source: kwallet-pam
 Section: kde
 Priority: optional
-Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
 Build-Depends: cmake,
                debhelper (>= 9),

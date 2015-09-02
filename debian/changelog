@@ -1,3 +1,21 @@
+kwallet-pam (4:5.4.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 31 Aug 2015 15:51:33 +0100
+
+kwallet-pam (4:5.3.95-0ubuntu2) wily; urgency=medium
+
+  * add conflicts on old pam-kwallet
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Aug 2015 15:44:49 +0100
+
+kwallet-pam (4:5.3.95-0ubuntu1) wily; urgency=medium
+
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 23:15:33 +0200
+
 kwallet-pam (0.0~git20150805-0ubuntu1) wily; urgency=medium
 
   [ Harald Sitter ]

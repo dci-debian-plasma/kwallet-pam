@@ -1,25 +1,24 @@
 #!/usr/bin/make -f
 
-QT5_BUILD_DIR = build-qt5
+include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
-%:
-	dh $@ 
+QT4_BUILD_DIR = build-qt4
 
 override_dh_auto_clean:
 	dh_auto_clean
-	rm -rf $(QT5_BUILD_DIR)
+	rm -rf $(QT4_BUILD_DIR)
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DKWALLET4=1
-	dh_auto_configure --builddirectory=$(QT5_BUILD_DIR) 
+	dh_auto_configure
+	dh_auto_configure --builddirectory=$(QT4_BUILD_DIR) -- -DKWALLET4=1
 
 override_dh_auto_build:
 	dh_auto_build
-	dh_auto_build --builddirectory=$(QT5_BUILD_DIR)
+	dh_auto_build --builddirectory=$(QT4_BUILD_DIR)
 
 override_dh_auto_install:
 	dh_auto_install
-	dh_auto_install --builddirectory=$(QT5_BUILD_DIR)
+	dh_auto_install --builddirectory=$(QT4_BUILD_DIR)
 
 override_dh_install:
 	dh_install --fail-missing

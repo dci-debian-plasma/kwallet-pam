@@ -14,22 +14,6 @@ Homepage: https://projects.kde.org/projects/kde/workspace/kwallet-pam
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/kwallet-pam.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kwallet-pam.git
 
-Package: pam-kwallet
-Depends: pam-kwallet4, ${misc:Depends}
-Architecture: all
-Priority: extra
-Section: oldlibs
-Description: transitional dummy package
- This is a transitional dummy package. It can safely be removed.
-
-Package: pam-kwallet4
-Architecture: any
-Depends: socat, ${misc:Depends}, ${shlibs:Depends}
-Conflicts: pam-kwallet (<< 4:5.3.95)
-Breaks: pam-kwallet (<< 4:5.3.95)
-Description: KWallet integration with PAM
- Integrated KWallet with PAM so you can log in to open a KWallet.
-
 Package: pam-kwallet5
 Architecture: any
 Depends: socat, ${misc:Depends}, ${shlibs:Depends}

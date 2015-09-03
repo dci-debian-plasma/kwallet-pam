@@ -3,9 +3,10 @@ Section: kde
 Priority: optional
 Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.8~),
                debhelper (>= 9),
                libgcrypt11-dev,
+               libgcrypt20-dev (>= 1.5.0~),
                libpam0g-dev,
                pkg-kde-tools
 Standards-Version: 3.9.6

@@ -1,10 +1,14 @@
-kwallet-pam (5.4.1-2) UNRELEASED; urgency=medium
+kwallet-pam (5.4.2-1~) UNRELEASED; urgency=medium
 
+  [ Scott Kitterman ]
   * Team upload.
   * Add pam-kwallet4 binary based on Kubuntu packages to provide legacy KDE 4
     support for now (Closes: #798825)
 
- -- Scott Kitterman <scott@kitterman.com>  Sun, 13 Sep 2015 16:38:50 -0400
+  [ Maximiliano Curia ]
+  * New upstream release (5.4.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 01 Oct 2015 17:14:15 +0200
 
 kwallet-pam (5.4.1-1) unstable; urgency=medium
 

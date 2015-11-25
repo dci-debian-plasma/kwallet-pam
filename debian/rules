@@ -24,4 +24,5 @@ override_dh_auto_install:
 	dh_auto_install --builddirectory=$(QT4_BUILD_DIR)
 
 override_dh_install:
-	dh_install --fail-missing
+	dh_install
+	dh_install --sourcedir $(QT4_BUILD_DIR)

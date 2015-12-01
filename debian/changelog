@@ -1,8 +1,8 @@
-kwallet-pam (5.4.3-1~) UNRELEASED; urgency=medium
+kwallet-pam (5.4.3-1) unstable; urgency=medium
 
   * New upstream release (5.4.3).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 05 Nov 2015 17:00:35 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:45:59 +0100
 
 kwallet-pam (5.4.2-1) unstable; urgency=medium
 

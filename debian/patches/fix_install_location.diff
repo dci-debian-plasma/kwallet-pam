@@ -1,10 +1,12 @@
 Index: kwallet-pam/CMakeLists.txt
 ===================================================================
 --- kwallet-pam.orig/CMakeLists.txt	2015-12-10 14:12:47.823621683 +0100
-+++ kwallet-pam/CMakeLists.txt	2015-12-10 20:14:41.316898893 +0100
-@@ -42,4 +42,4 @@
-    ${LIBGCRYPT_LIBRARIES}
- )
++++ kwallet-pam/CMakeLists.txt	2015-12-10 20:45:45.967413893 +0100
+@@ -36,7 +36,6 @@
+ endif()
  
--install(TARGETS ${library_name} DESTINATION ${CMAKE_INSTALL_LIBDIR}/security)
-+install(TARGETS ${library_name} DESTINATION /${CMAKE_INSTALL_LIBDIR}/security)
+ add_library (${library_name} SHARED ${pam_kwallet_SRCS})
+-set_target_properties (${library_name} PROPERTIES PREFIX "")
+ target_link_libraries (${library_name}
+    ${PAM_LIBRARIES}
+    ${LIBGCRYPT_LIBRARIES}

@@ -1,0 +1,10 @@
+Index: kwallet-pam/CMakeLists.txt
+===================================================================
+--- kwallet-pam.orig/CMakeLists.txt	2015-12-10 14:12:47.823621683 +0100
++++ kwallet-pam/CMakeLists.txt	2015-12-10 20:14:41.316898893 +0100
+@@ -42,4 +42,4 @@
+    ${LIBGCRYPT_LIBRARIES}
+ )
+ 
+-install(TARGETS ${library_name} DESTINATION ${CMAKE_INSTALL_LIBDIR}/security)
++install(TARGETS ${library_name} DESTINATION /${CMAKE_INSTALL_LIBDIR}/security)

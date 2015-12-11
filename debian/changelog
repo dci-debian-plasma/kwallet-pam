@@ -5,6 +5,7 @@ kwallet-pam (4:5.5.1-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release Xenial
   * No change, trigger build. 
   * Fix filename for kwallet5 install file. 
+  * Cherry pick Rohan's commit 4daa0350d4eba05a6907ede9bd1423352157c3af
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Dec 2015 07:32:56 -0800
 

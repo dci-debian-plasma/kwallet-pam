@@ -2,6 +2,8 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
 QT4_BUILD_DIR = build-qt4
 
 override_dh_auto_clean:
@@ -10,9 +12,9 @@ override_dh_auto_clean:
 
 override_dh_auto_configure:
 	$(overridden_command) -- \
-		-DCMAKE_INSTALL_PREFIX=/
+		-DCMAKE_INSTALL_LIBDIR=/lib/$(DEB_HOST_MULTIARCH)
 	dh_auto_configure --builddirectory=$(QT4_BUILD_DIR) -- \
-		-DCMAKE_INSTALL_PREFIX=/ \
+		-DCMAKE_INSTALL_LIBDIR=/lib/$(DEB_HOST_MULTIARCH) \
 		-DKWALLET4=1
 
 override_dh_auto_build:

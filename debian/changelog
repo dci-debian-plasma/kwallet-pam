@@ -15,6 +15,7 @@ kwallet-pam (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Merge unstable to archive to get the debian merge. 
+  * Fix install file. 
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 17:56:40 +0000
 

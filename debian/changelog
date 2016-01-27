@@ -1,4 +1,4 @@
-kwallet-pam (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
+kwallet-pam (4:5.5.4-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Debian merge: no remaining changes. 
@@ -17,7 +17,10 @@ kwallet-pam (4:5.5.3-0ubuntu1) UNRELEASED; urgency=medium
   * Merge unstable to archive to get the debian merge. 
   * Fix install file. 
 
- -- Clive Johnston <clivejo@aol.com>  Thu, 07 Jan 2016 17:56:40 +0000
+  [ Clive Johnston ]
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:11:55 +0000
 
 kwallet-pam (4:5.4.3-0ubuntu1) xenial; urgency=medium
 

@@ -1,5 +1,6 @@
 kwallet-pam (4:5.5.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Debian merge: no remaining changes. 
   * Fix control file merge. 
   * New upstream release Xenial
@@ -8,6 +9,9 @@ kwallet-pam (4:5.5.1-0ubuntu1) UNRELEASED; urgency=medium
   * Fix filename for kwallet5 install file. 
   * Cherry pick Rohan's commit 4daa0350d4eba05a6907ede9bd1423352157c3af
   * Yet another merge fix. yay. 
+
+  [ Bhushan Shah ]
+  * Depend on qtbase5-dev as ecm wants it
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Dec 2015 07:32:56 -0800
 

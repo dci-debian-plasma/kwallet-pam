@@ -18,8 +18,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kwallet-pam.git
 Package: libpam-kwallet4
 Architecture: any
 Depends: socat, ${misc:Depends}, ${shlibs:Depends}
-Conflicts: pam-kwallet (<< 4:5.3.95)
-Breaks: pam-kwallet (<< 4:5.3.95)
+Conflicts: pam-kwallet (<< 4:5.3.95), pam-kwallet4 (<< 4:5.5)
+Breaks: pam-kwallet (<< 4:5.3.95), pam-kwallet4 (<< 4:5.5)
 Description: KWallet (KDE 4) integration with PAM
  The KDE Wallet system provides a secure way to store passwords and other
  secret information, allowing the user to remember only a single KDE Wallet
@@ -31,6 +31,8 @@ Description: KWallet (KDE 4) integration with PAM
 Package: libpam-kwallet5
 Architecture: any
 Depends: socat, ${misc:Depends}, ${shlibs:Depends}
+Conflicts: pam-kwallet5 (<< 4:5.5)
+Breaks: pam-kwallet5 (<< 4:5.5)
 Description: KWallet (Kf5) integration with PAM
  The KDE Wallet system provides a secure way to store passwords and other
  secret information, allowing the user to remember only a single KDE Wallet

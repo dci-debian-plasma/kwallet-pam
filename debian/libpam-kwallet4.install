@@ -1,1 +1,1 @@
-lib/*/security/libpam_kwallet.so
+lib/*/security/pam_kwallet.so

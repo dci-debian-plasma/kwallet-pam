@@ -8,7 +8,7 @@ Build-Depends: cmake (>= 2.8.8~),
                libgcrypt20-dev (>= 1.5.0~),
                libpam0g-dev,
                pkg-kde-tools
-Standards-Version: 3.9.6
+Standards-Version: 3.9.7
 Homepage: https://projects.kde.org/projects/kde/workspace/kwallet-pam
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/kwallet-pam.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kwallet-pam.git

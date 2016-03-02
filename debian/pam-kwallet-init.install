@@ -1,0 +1,2 @@
+etc/xdg/autostart/pam_kwallet_init.desktop
+lib/*/libexec/pam_kwallet_init

@@ -10,8 +10,12 @@ override_dh_auto_clean:
 	rm -rf $(QT4_BUILD_DIR)
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DCMAKE_INSTALL_LIBDIR="/lib/${DEB_HOST_MULTIARCH}"
-	dh_auto_configure --builddirectory=$(QT4_BUILD_DIR) -- -DKWALLET4=1 -DCMAKE_INSTALL_LIBDIR="/lib/${DEB_HOST_MULTIARCH}"
+	dh_auto_configure -- \
+	    -DCMAKE_INSTALL_LIBDIR="/lib/${DEB_HOST_MULTIARCH}" \
+	    -DLIBEXEC_INSTALL_DIR="/usr/share/libpam-kwallet-common"
+	dh_auto_configure --builddirectory=$(QT4_BUILD_DIR) -- \
+	    -DKWALLET4=1 -DCMAKE_INSTALL_LIBDIR="/lib/${DEB_HOST_MULTIARCH}" \
+	    -DLIBEXEC_INSTALL_DIR="/usr/share/libpam-kwallet-common"
 
 override_dh_auto_build:
 	dh_auto_build

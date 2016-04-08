@@ -12,15 +12,6 @@ kwallet-pam (5.6.2-1~1.gbpf5c228) UNRELEASED; urgency=medium
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 06 Apr 2016 23:35:14 +0200
 
-kwallet-pam (5.5.5-1~) UNRELEASED; urgency=medium
-
-  * Try using -DCMAKE_INSTALL_LIBDIR.
-  * Bump Standards-Version to 3.9.7, no changes needed.
-  * Update Vcs uris.
-  * New upstream release (5.5.5).
-
- -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Mar 2016 16:57:37 +0100
-
 kwallet-pam (5.5.4-1) experimental; urgency=medium
 
   * New upstream release (5.5.0).

@@ -1,6 +1,6 @@
-kwallet-pam (5.6.3-1~1.gbp119fc8) UNRELEASED; urgency=medium
+kwallet-pam (5.6.3-1~2.gbp67d5ad) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @119fc82d71e18efc51fd81d311643be35cb3548c **
+  ** SNAPSHOT build @67d5adca2eaffcd673f9a926a10723e0714a40ed **
 
   [ Maximiliano Curia ]
   * Try using -DCMAKE_INSTALL_LIBDIR.
@@ -10,6 +10,7 @@ kwallet-pam (5.6.3-1~1.gbp119fc8) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
+  * UNRELEASED
 
   [ Maximiliano Curia ]
   * New upstream release (5.5.5).
@@ -23,7 +24,7 @@ kwallet-pam (5.6.3-1~1.gbp119fc8) UNRELEASED; urgency=medium
   * Drop unreleased changelog entry
   * Add -common package
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 19 Apr 2016 16:35:10 +0200
+ -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Sat, 30 Apr 2016 20:03:47 +0200
 
 kwallet-pam (5.5.4-1) experimental; urgency=medium
 

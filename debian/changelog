@@ -1,30 +1,21 @@
-kwallet-pam (5.6.3-1~2.gbp67d5ad) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @67d5adca2eaffcd673f9a926a10723e0714a40ed **
+kwallet-pam (5.6.3-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * Try using -DCMAKE_INSTALL_LIBDIR.
   * Bump Standards-Version to 3.9.7, no changes needed.
   * Update Vcs uris.
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * New upstream release (5.5.5).
+  * Add upstream metadata (DEP-12)
+  * Drop unreleased changelog entry
+  * Add -common package
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
-  * UNRELEASED
-
-  [ Maximiliano Curia ]
-  * New upstream release (5.5.5).
-  * Add upstream metadata (DEP-12)
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
   * Update changelog for 5.6.2-1~1.gbpf5c228 release
 
-  [ Maximiliano Curia ]
-  * Drop unreleased changelog entry
-  * Add -common package
-
- -- Automatic packaging <jenkins@amadeus.gnuservers.com.ar>  Sat, 30 Apr 2016 20:03:47 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 14:56:58 +0200
 
 kwallet-pam (5.5.4-1) experimental; urgency=medium
 

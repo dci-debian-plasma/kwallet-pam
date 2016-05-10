@@ -1,3 +1,11 @@
+kwallet-pam (5.6.4-1~1.gbp207151) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @207151c5e16b9f72bff239ed8eb27411016046a5 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 22:35:12 +0200
+
 kwallet-pam (5.6.3-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]

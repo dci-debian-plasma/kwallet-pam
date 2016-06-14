@@ -1,3 +1,11 @@
+kwallet-pam (5.6.5-1~1.gbp00b301) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @00b301b507d471390bc50387f2f24fa20c639191 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 16:35:09 +0200
+
 kwallet-pam (5.6.4-1) unstable; urgency=medium
 
   * Add missing build dependency

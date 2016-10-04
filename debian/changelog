@@ -1,10 +1,11 @@
-kwallet-pam (5.7.5-1~1.gbpff121a) UNRELEASED; urgency=medium
+kwallet-pam (5.8.0-1~1.gbpdbe6e4) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ff121a9bd3961daf611dbe89b1e03f1b02bccb6a **
+  ** SNAPSHOT build @dbe6e4bb20fd91c5bb5063c75811307925a5175c **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 13 Sep 2016 16:35:33 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:38:43 +0200
 
 kwallet-pam (5.7.4-1) unstable; urgency=medium
 

@@ -1,11 +1,8 @@
-kwallet-pam (5.8.0-1~1.gbpdbe6e4) UNRELEASED; urgency=medium
+kwallet-pam (5.8.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @dbe6e4bb20fd91c5bb5063c75811307925a5175c **
+  * New upstream release (5.8.0)
 
-  * UNRELEASED
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:38:43 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:04:25 +0200
 
 kwallet-pam (5.7.4-1) unstable; urgency=medium
 

@@ -1,3 +1,11 @@
+kwallet-pam (5.8.2-1~1.gbp6516f5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @6516f5e7a75829283f0fcd1e837c683caa501e59 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 18 Oct 2016 16:35:25 +0200
+
 kwallet-pam (5.8.1-1) unstable; urgency=medium
 
   * New upstream release (5.8.1)

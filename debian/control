@@ -8,8 +8,8 @@ Build-Depends: cmake (>= 2.8.12~),
                extra-cmake-modules (>= 1.2.0~),
                libgcrypt20-dev (>= 1.5.0~),
                libpam0g-dev,
-               qtbase5-dev,
-               pkg-kde-tools
+               pkg-kde-tools,
+               qtbase5-dev
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/kde/workspace/kwallet-pam
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/kwallet-pam.git
